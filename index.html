@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/fav.jpg">
+    <title>ポートフォリオ第2版</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <a href="" class="link_logo" id="page-top">
+        <img src="./img/nav/title_logo.png" alt="">
+    </a>
+    <div class="nav_button" onclick="nav_button()">
+        <h3><span>F</span></h3>
+        <h3><span>i</span></h3>
+        <h3><span>l</span></h3>
+        <h3><span>e</span></h3>
+        <h3><span>閉</span></h3>
+    </div>
+    <div class="nav_area">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#file1" onclick="link_button()">
+                        <div class="nav_checkbox"></div>
+                        <div>
+                            <h4>File.1</h4>
+                            <div class="nav_menu_title">
+                                <h1><span>制</span></h1>
+                                <h1><span>作</span></h1>
+                                <h1><span>物</span></h1>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#file2" onclick="link_button2()">
+                        <div class="nav_checkbox"></div>
+                        <div>
+                            <h4>File.2</h4>
+                            <div class="nav_menu_title2">
+                                <h1><span>略</span></h1>
+                                <img src="./img/logo2.png" alt="">
+                                <h1><span>歴</span></h1>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#file3" onclick="link_button3()">
+                        <div class="nav_checkbox"></div>
+                        <div>
+                            <h4>File.3</h4>
+                            <div class="nav_menu_title3">
+                                <h1><span>ご</span></h1>
+                                <h1><span>連</span></h1>
+                                <h1><span>絡</span></h1>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <a href="" class="nav_logo_link"><img src="./img/nav/title_logo.png" alt="" class="nav_logo"></a>
+    </div>
+    <div class="mainvisual" id="mainvisual">
+        <div class="mainvisual_titlebox">
+            <div class="mainvisual_name1">
+                <h1><span>小</span></h1>
+                <h1><span>澄</span></h1>
+                <!-- <h2></h2>
+            <h2></h2> -->
+            </div>
+            <div class="mainvisual_name2">
+                <!-- <h2></h2> -->
+                <h1><span>和</span></h1>
+                <img src="./img/logo2.png" alt="">
+                <h1><span>希</span></h1>
+            </div>
+            <div class="mainvisual_subtitle">
+                <h3><span>ポ</span></h3>
+                <h3><span>ー</span></h3>
+                <h3><span>ト</span></h3>
+                <h3><span>フ</span></h3>
+                <h3><span>ォ</span></h3>
+                <h3><span>リ</span></h3>
+                <h3><span>オ</span></h3>
+                <h3><span>第</span></h3>
+                <h3><span>二</span></h3>
+                <h3><span>版</span></h3>
+            </div>
+        </div>
+        <div class="bg_line_vertical">
+            <span></span>
+        </div>
+        <div class="bg_line_vertical2">
+            <span></span>
+        </div>
+        <div class="bg_line_vertical3">
+            <span></span>
+        </div>
+        <div class="bg_line_beside">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    </div>
+    <div class="file1" id="file1">
+        <div class="file1_title">
+            <h3>File.1</h3>
+            <h2>制作物</h2>
+        </div>
+        <div class="file1_content">
+            <div class="slider-container">
+                <div class="slider">
+                    <p onclick="slider_button()">No.1　北関東水族館</p>
+                    <p onclick="slider_button2()">No.2　北関東学院</p>
+                    <p onclick="slider_button3()">No.3 ポートフォリオver1.0</p>
+                    <p onclick="slider_button4()">No.4　Coming Soon</p>
+                    <p onclick="slider_button5()">No.5　Coming Soon</p>
+                </div>
+            </div>
+            <div class="file1_item file1_item_active">
+                <div class="file1_item_title">
+                    <h3>No.1 北関東水族館</h3>
+                </div>
+                <img src="./img/file1/aquarium.png" alt="">
+                <div class="file1_item_text">
+                    <p>
+                        架空の水族館のホームページを作成しました。子連れの家族の客層を
+                        ターゲットとし、全体的に多く動きをつけたコンセプトでサイト作成
+                        を行いました。
+                    </p>
+                </div>
+            </div>
+            <div class="file1_item2">
+                <div class="file1_item_title">
+                    <h3>No.2 北関東学院</h3>
+                </div>
+                <img src="./img/file1/kitakan.png" alt="">
+                <div class="file1_item_text">
+                    <p>
+                        現在通っている訓練校のホームページを作成しました。元々のサイトは情報量が多く情報の切れ目がないため非常に見づらかったのでその問題点を中心に改善することを意識してサイト作成を行いました。掲載サイトの中では最初期に作成
+                    </p>
+                </div>
+            </div>
+            <div class="file1_item3">
+                <div class="file1_item_title">
+                    <h3>No.3 ポートフォリオver1.0</h3>
+                </div>
+                <img src="./img/file1/portfolio.png" alt="">
+                <div class="file1_item_text">
+                    <p>
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                </div>
+            </div>
+            <div class="file1_item4">
+                <div class="file1_item_title">
+                    <h3>No.4 Coming Soon</h3>
+                </div>
+                <img src="./img/file1/dummy.png" alt="">
+                <div class="file1_item_text">
+                    <p>
+                   
+                    </p>
+                </div>
+            </div>
+            <div class="file1_item5">
+                <div class="file1_item_title">
+                    <h3>No.5 Coming Soon</h3>
+                </div>
+                <img src="./img/file1/dummy.png" alt="">
+                <div class="file1_item_text">
+                    <p>
+                  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="file2" id="file2">
+        <div class="file2_title">
+            <h3>File.2</h3>
+            <h2>略歴</h2>
+        </div>
+        <div class="file2_content">
+            <img src="./img/line.png" alt="">
+            <div class="name_box">
+                <div class="name_text">
+                    <h2>KAZUKI KOSUMI</h2>
+                    <h3>-小澄 和希-</h3>
+                </div>
+                <div class="name_text2">
+                    <h3>年齢 : ３２歳</h3>
+                    <h3>出身地 : 北海道 北見市</h3>
+                </div>
+            </div>
+            <div class="skill_box">
+                <h3>使用言語・ツール:<span>HTML</span>/<span>CSS</span>/<span>JAVA SCRIPT</span>/<span>figma</span></h3>
+            </div>
+            <img src="./img/line.png" alt="">
+            <p>
+                陸上自衛隊にて4年間勤務<br>
+                恒常業務としての体力錬成や戦闘訓練の他<br>
+                震災時の災害派遣活動等に従事。
+            </p>
+            <img src="./img/line2.png" alt="">
+            <p>
+                携帯基地局のエンジニアとして６年間勤務<br>
+                ５年間は無線設計をメインに行いつつ電波測定や<br>
+                基地局の無線局免許関係の業務に従事。<br>
+                その後1年間は基地局工事の施工管理関係の業務に従事。
+            </p>
+            <img src="./img/line3.png" alt="">
+            <p>
+                街灯のLED化工事担当者として1年半勤務<br>
+                施工管理関係や電力会社への電力申請及び調整業務に従事。<br>
+            </p>
+            <img src="./img/line4.png" alt="">
+            <p>
+                Webプログラマーを目指し北関東学院へ入校し、現在に至る。
+            </p>
+        </div>
+    </div>
+
+    <div class="file3" id="file3">
+        <div class="file3_title">
+            <h3>File.3</h3>
+            <h2>ご連絡</h2>
+        </div>
+        <div class="mailtel_box">
+            <div class="mailtel_text">
+                <div class="mailtel_text_title">
+                    <img src="./img/contact/mail_icon.png" alt="">
+                    <h2>Email</h2>
+                </div>
+                <p>kazuki.kosumi@gmail.com</p>
+                <img src="./img/contact/line2.png" alt="">
+            </div>
+            <div class="mailtel_text2">
+                <div class="mailtel_text2_title">
+                    <img src="./img/contact/tel_icon.png" alt="">
+                    <h2>iPhone</h2>
+                </div>
+                <p>090-2810-5807</p>
+                <img src="./img/contact/line2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© Kazuki Kosumi All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
